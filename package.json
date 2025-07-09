@@ -1,4 +1,9 @@
 {
+  "name": "radarsoft-technologies",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./src/output.css --minify"
+  },
   "dependencies": {
     "@tailwindcss/cli": "^4.1.11",
     "tailwindcss": "^4.1.11"
